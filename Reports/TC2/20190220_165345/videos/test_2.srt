@@ -1,0 +1,116 @@
+1
+00:00:01,012 --> 00:00:01,017
+1. driver = getWebDriver()
+
+2
+00:00:01,045 --> 00:00:01,047
+5. baseUrl = "https://www.katalon.com/"
+
+3
+00:00:01,048 --> 00:00:01,051
+9. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+4
+00:00:01,518 --> 00:00:01,521
+13. selenium.click("link=Women")
+
+5
+00:00:05,929 --> 00:00:05,933
+17. scrollToPosition(0, 800)
+
+6
+00:00:06,000 --> 00:00:06,001
+21. old_pos = 800
+
+7
+00:00:06,001 --> 00:00:06,005
+25. j = 400
+
+8
+00:00:06,005 --> 00:00:06,005
+29. i = 1
+
+9
+00:00:06,005 --> 00:00:06,005
+33. for (def index : (1..6))
+
+10
+00:00:06,020 --> 00:00:06,020
+1. if (index % i + 3 == 0)
+
+11
+00:00:06,036 --> 00:00:06,055
+5. delay(5)
+
+12
+00:00:11,060 --> 00:00:11,062
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+
+13
+00:00:11,399 --> 00:00:11,401
+13. delay(3)
+
+14
+00:00:14,404 --> 00:00:14,406
+17. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]")
+
+15
+00:00:14,754 --> 00:00:14,755
+1. if (index % i + 3 == 0)
+
+16
+00:00:14,757 --> 00:00:14,758
+5. delay(5)
+
+17
+00:00:19,758 --> 00:00:19,761
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+
+18
+00:00:20,092 --> 00:00:20,096
+13. delay(3)
+
+19
+00:00:23,097 --> 00:00:23,099
+17. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]")
+
+20
+00:00:23,393 --> 00:00:23,394
+1. if (index % i + 3 == 0)
+
+21
+00:00:23,394 --> 00:00:23,394
+5. delay(5)
+
+22
+00:00:28,395 --> 00:00:28,397
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+
+23
+00:00:28,694 --> 00:00:28,696
+13. delay(3)
+
+24
+00:00:31,697 --> 00:00:31,698
+17. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]")
+
+25
+00:00:31,972 --> 00:00:31,974
+1. if (index % i + 3 == 0)
+
+26
+00:00:31,975 --> 00:00:31,975
+1. old_pos = old_pos + j
+
+27
+00:00:31,975 --> 00:00:31,975
+5. scrollToPosition(0, old_pos)
+
+28
+00:00:31,989 --> 00:00:31,989
+5. delay(5)
+
+29
+00:00:36,991 --> 00:00:36,993
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+

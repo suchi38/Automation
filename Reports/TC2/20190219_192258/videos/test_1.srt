@@ -1,0 +1,60 @@
+1
+00:00:00,867 --> 00:00:00,897
+1. openBrowser("")
+
+2
+00:00:10,838 --> 00:00:10,838
+5. navigateToUrl("http://automationpractice.com/index.php?id_category=3&controller=category")
+
+3
+00:00:17,817 --> 00:00:17,820
+9. delay(3)
+
+4
+00:00:20,923 --> 00:00:20,925
+13. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_Categories_layered_categ (1)"))
+
+5
+00:00:21,372 --> 00:00:21,374
+17. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_(7)_layered_id_attribute (1)"))
+
+6
+00:00:21,712 --> 00:00:21,716
+21. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_(3)_layered_id_attribute"))
+
+7
+00:00:22,011 --> 00:00:22,013
+25. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/a_Viscose (2)"))
+
+8
+00:00:22,325 --> 00:00:22,329
+29. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_(2)_layered_id_feature_3 (1)"))
+
+9
+00:00:22,643 --> 00:00:22,644
+33. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_(2)_layered_id_feature_3 (1)"))
+
+10
+00:00:22,960 --> 00:00:22,962
+37. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_(1)_layered_id_feature_1 (1)"))
+
+11
+00:00:23,245 --> 00:00:23,246
+41. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_(2)_layered_id_feature_1"))
+
+12
+00:00:23,545 --> 00:00:23,546
+45. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_Availability_layered_qua (1)"))
+
+13
+00:00:23,818 --> 00:00:23,820
+49. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_Condition_layered_condit (1)"))
+
+14
+00:00:24,094 --> 00:00:24,096
+53. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_Manufacturer_layered_man"))
+
+15
+00:00:24,365 --> 00:00:24,366
+57. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/a_21.92 - 53.00_ui-slider-hand"))
+

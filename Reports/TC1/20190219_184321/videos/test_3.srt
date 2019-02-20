@@ -1,0 +1,24 @@
+1
+00:00:00,554 --> 00:00:00,556
+1. openBrowser("")
+
+2
+00:00:07,614 --> 00:00:07,616
+5. navigateToUrl("http://automationpractice.com/index.php")
+
+3
+00:00:15,337 --> 00:00:15,338
+9. click(findTestObject("Object Repository/Login/Page_My Store/a_Sign in"))
+
+4
+00:00:17,678 --> 00:00:17,680
+13. setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Email address_email"), email)
+
+5
+00:00:17,917 --> 00:00:17,918
+17. setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Password_passwd"), password)
+
+6
+00:00:18,086 --> 00:00:18,087
+21. click(findTestObject("Object Repository/Login/Page_Login - My Store/button_Sign in"))
+

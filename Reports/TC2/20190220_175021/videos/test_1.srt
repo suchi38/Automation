@@ -1,0 +1,24 @@
+1
+00:00:00,757 --> 00:00:00,784
+1. openBrowser("")
+
+2
+00:00:09,874 --> 00:00:09,890
+5. navigateToUrl("http://automationpractice.com/index.php?id_category=3&controller=category")
+
+3
+00:00:18,760 --> 00:00:18,764
+9. delay(3)
+
+4
+00:00:21,808 --> 00:00:21,812
+13. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_Categories_layered_categ (1)"))
+
+5
+00:00:22,237 --> 00:00:22,238
+17. click(findTestObject("Object Repository/FilterObjects/Page_Women - My Store/input_(7)_layered_id_attribute (1)"))
+
+6
+00:00:22,551 --> 00:00:22,553
+21. delay(5)
+

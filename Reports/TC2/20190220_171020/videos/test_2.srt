@@ -1,0 +1,48 @@
+1
+00:00:00,731 --> 00:00:00,732
+1. driver = getWebDriver()
+
+2
+00:00:00,749 --> 00:00:00,754
+5. baseUrl = "https://www.katalon.com/"
+
+3
+00:00:00,755 --> 00:00:00,756
+9. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+4
+00:00:01,032 --> 00:00:01,034
+13. selenium.click("link=Women")
+
+5
+00:00:03,657 --> 00:00:03,659
+17. scrollToPosition(0, 800)
+
+6
+00:00:03,719 --> 00:00:03,719
+21. old_pos = 800
+
+7
+00:00:03,719 --> 00:00:03,738
+25. j = 400
+
+8
+00:00:03,741 --> 00:00:03,746
+29. i = 1
+
+9
+00:00:03,746 --> 00:00:03,746
+33. for (def index : (1..6))
+
+10
+00:00:03,770 --> 00:00:03,770
+1. if (index % i + 3 == 0)
+
+11
+00:00:03,770 --> 00:00:03,770
+5. delay(5)
+
+12
+00:00:08,787 --> 00:00:08,789
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+

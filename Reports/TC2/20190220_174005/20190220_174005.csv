@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC2,Firefox 65.0,,2019-02-20 17:40:08,2019-02-20 17:40:47,38.916s,ERROR
+,,,,,,
+Test Cases/TC4_FilterOption,Firefox 65.0,,2019-02-20 17:40:09,2019-02-20 17:40:42,32.777s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-20 17:40:10,2019-02-20 17:40:20,10.171s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php?id_category=3&controller=category"")",Firefox 65.0,,2019-02-20 17:40:20,2019-02-20 17:40:31,10.322s,PASSED
+delay(3),Firefox 65.0,,2019-02-20 17:40:31,2019-02-20 17:40:34,3.063s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_Categories_layered_categ (1)""))",Firefox 65.0,,2019-02-20 17:40:34,2019-02-20 17:40:34,0.444s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_(7)_layered_id_attribute (1)""))",Firefox 65.0,,2019-02-20 17:40:34,2019-02-20 17:40:35,0.337s,PASSED
+delay(5),Firefox 65.0,,2019-02-20 17:40:35,2019-02-20 17:40:40,5.007s,PASSED
+,,,,,,
+Test Cases/TC3_AddToCart - Copy,Firefox 65.0,,2019-02-20 17:40:42,2019-02-20 17:40:45,3.640s,ERROR
+driver = getWebDriver(),Firefox 65.0,,2019-02-20 17:40:43,2019-02-20 17:40:43,0.059s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2019-02-20 17:40:43,2019-02-20 17:40:43,0.037s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-02-20 17:40:43,2019-02-20 17:40:43,0.225s,PASSED
+"scrollToPosition(0, 800)",Firefox 65.0,,2019-02-20 17:40:43,2019-02-20 17:40:43,0.051s,PASSED
+old_pos = 800,Firefox 65.0,,2019-02-20 17:40:43,2019-02-20 17:40:43,0.003s,PASSED
+j = 400,Firefox 65.0,,2019-02-20 17:40:43,2019-02-20 17:40:43,0.002s,PASSED
+i = 1,Firefox 65.0,,2019-02-20 17:40:43,2019-02-20 17:40:43,0.004s,PASSED
+"p = getAlertText(executeJavaScript(""var person = prompt(""Please enter data"", ""2"");"", []))",Firefox 65.0,,2019-02-20 17:40:43,2019-02-20 17:40:43,0.142s,PASSED
+p = p,Firefox 65.0,,2019-02-20 17:40:43,2019-02-20 17:40:43,0.029s,ERROR

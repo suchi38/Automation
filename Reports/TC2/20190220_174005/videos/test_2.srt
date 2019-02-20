@@ -1,0 +1,36 @@
+1
+00:00:00,950 --> 00:00:00,952
+1. driver = getWebDriver()
+
+2
+00:00:01,010 --> 00:00:01,046
+5. baseUrl = "https://www.katalon.com/"
+
+3
+00:00:01,048 --> 00:00:01,050
+9. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+4
+00:00:01,273 --> 00:00:01,279
+13. scrollToPosition(0, 800)
+
+5
+00:00:01,327 --> 00:00:01,329
+17. old_pos = 800
+
+6
+00:00:01,331 --> 00:00:01,332
+21. j = 400
+
+7
+00:00:01,333 --> 00:00:01,335
+25. i = 1
+
+8
+00:00:01,336 --> 00:00:01,342
+29. p = getAlertText(executeJavaScript("var person = prompt("Please enter data", "2");", []))
+
+9
+00:00:01,481 --> 00:00:01,483
+33. p = p
+

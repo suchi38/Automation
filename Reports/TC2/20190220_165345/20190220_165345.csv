@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC2,Firefox 65.0,,2019-02-20 16:53:50,2019-02-20 16:55:02,1m - 12.781s,ERROR
+,,,,,,
+Test Cases/TC4_FilterOption,Firefox 65.0,,2019-02-20 16:53:50,2019-02-20 16:54:21,30.938s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-20 16:53:52,2019-02-20 16:54:03,11.465s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php?id_category=3&controller=category"")",Firefox 65.0,,2019-02-20 16:54:03,2019-02-20 16:54:12,8.973s,PASSED
+delay(3),Firefox 65.0,,2019-02-20 16:54:12,2019-02-20 16:54:15,3.074s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_Categories_layered_categ (1)""))",Firefox 65.0,,2019-02-20 16:54:15,2019-02-20 16:54:16,0.515s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_(7)_layered_id_attribute (1)""))",Firefox 65.0,,2019-02-20 16:54:16,2019-02-20 16:54:16,0.336s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_(3)_layered_id_attribute""))",Firefox 65.0,,2019-02-20 16:54:16,2019-02-20 16:54:16,0.303s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/a_Viscose (2)""))",Firefox 65.0,,2019-02-20 16:54:16,2019-02-20 16:54:17,0.314s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_(2)_layered_id_feature_3 (1)""))",Firefox 65.0,,2019-02-20 16:54:17,2019-02-20 16:54:17,0.306s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_(2)_layered_id_feature_3 (1)""))",Firefox 65.0,,2019-02-20 16:54:17,2019-02-20 16:54:17,0.303s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_(1)_layered_id_feature_1 (1)""))",Firefox 65.0,,2019-02-20 16:54:17,2019-02-20 16:54:18,0.262s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_(2)_layered_id_feature_1""))",Firefox 65.0,,2019-02-20 16:54:18,2019-02-20 16:54:18,0.288s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_Availability_layered_qua (1)""))",Firefox 65.0,,2019-02-20 16:54:18,2019-02-20 16:54:18,0.278s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_Condition_layered_condit (1)""))",Firefox 65.0,,2019-02-20 16:54:18,2019-02-20 16:54:18,0.299s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_Manufacturer_layered_man""))",Firefox 65.0,,2019-02-20 16:54:18,2019-02-20 16:54:19,0.315s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/a_21.92 - 53.00_ui-slider-hand""))",Firefox 65.0,,2019-02-20 16:54:19,2019-02-20 16:54:19,0.310s,PASSED
+,,,,,,
+Test Cases/TC3_AddToCart - Copy,Firefox 65.0,,2019-02-20 16:54:21,2019-02-20 16:55:01,39.409s,ERROR
+driver = getWebDriver(),Firefox 65.0,,2019-02-20 16:54:22,2019-02-20 16:54:22,0.031s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2019-02-20 16:54:22,2019-02-20 16:54:22,0.003s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-02-20 16:54:22,2019-02-20 16:54:23,0.470s,PASSED
+"selenium.click(""link=Women"")",Firefox 65.0,,2019-02-20 16:54:23,2019-02-20 16:54:27,4.409s,PASSED
+"scrollToPosition(0, 800)",Firefox 65.0,,2019-02-20 16:54:27,2019-02-20 16:54:27,0.071s,PASSED
+old_pos = 800,Firefox 65.0,,2019-02-20 16:54:27,2019-02-20 16:54:27,0.000s,PASSED
+j = 400,Firefox 65.0,,2019-02-20 16:54:27,2019-02-20 16:54:27,0.001s,PASSED
+i = 1,Firefox 65.0,,2019-02-20 16:54:27,2019-02-20 16:54:27,0.000s,PASSED
+for (def index : (1..6)),Firefox 65.0,,2019-02-20 16:54:27,2019-02-20 16:54:58,31.175s,ERROR

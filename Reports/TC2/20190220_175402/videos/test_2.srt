@@ -1,0 +1,60 @@
+1
+00:00:00,846 --> 00:00:00,848
+1. driver = getWebDriver()
+
+2
+00:00:00,864 --> 00:00:00,871
+5. baseUrl = "https://www.katalon.com/"
+
+3
+00:00:00,871 --> 00:00:00,871
+9. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+4
+00:00:01,219 --> 00:00:01,220
+13. scrollToPosition(0, 800)
+
+5
+00:00:01,338 --> 00:00:01,341
+17. old_pos = 800
+
+6
+00:00:01,342 --> 00:00:01,344
+21. j = 400
+
+7
+00:00:01,345 --> 00:00:01,345
+25. i = 1
+
+8
+00:00:01,345 --> 00:00:01,345
+29. frame = new javax.swing.JFrame(User loop)
+
+9
+00:00:01,702 --> 00:00:01,718
+33. frame.requestFocus()
+
+10
+00:00:01,718 --> 00:00:01,733
+37. loop = Integer.parseInt(JOptionPane.showInputDialog(frame, "Enter the loop"))
+
+11
+00:00:06,968 --> 00:00:06,971
+41. delay(6)
+
+12
+00:00:12,974 --> 00:00:12,975
+45. for (def index : (1..loop))
+
+13
+00:00:12,992 --> 00:00:12,993
+1. if (index % i + 3 == 0)
+
+14
+00:00:12,993 --> 00:00:12,993
+5. delay(5)
+
+15
+00:00:17,994 --> 00:00:17,997
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+

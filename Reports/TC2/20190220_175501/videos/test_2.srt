@@ -1,0 +1,116 @@
+1
+00:00:00,782 --> 00:00:00,784
+1. driver = getWebDriver()
+
+2
+00:00:00,784 --> 00:00:00,784
+5. baseUrl = "https://www.katalon.com/"
+
+3
+00:00:00,800 --> 00:00:00,800
+9. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+4
+00:00:01,095 --> 00:00:01,127
+13. scrollToPosition(0, 800)
+
+5
+00:00:01,204 --> 00:00:01,210
+17. old_pos = 800
+
+6
+00:00:01,210 --> 00:00:01,210
+21. j = 400
+
+7
+00:00:01,210 --> 00:00:01,210
+25. i = 1
+
+8
+00:00:01,210 --> 00:00:01,210
+29. frame = new javax.swing.JFrame(User loop)
+
+9
+00:00:01,373 --> 00:00:01,373
+33. frame.requestFocus()
+
+10
+00:00:01,389 --> 00:00:01,389
+37. loop = Integer.parseInt(JOptionPane.showInputDialog(frame, "Enter the loop"))
+
+11
+00:00:07,128 --> 00:00:07,137
+41. delay(6)
+
+12
+00:00:13,139 --> 00:00:13,140
+45. for (def index : (1..loop))
+
+13
+00:00:13,142 --> 00:00:13,150
+1. if (index % i + 3 == 0)
+
+14
+00:00:13,150 --> 00:00:13,150
+5. delay(5)
+
+15
+00:00:18,151 --> 00:00:18,152
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+
+16
+00:00:18,461 --> 00:00:18,462
+13. delay(3)
+
+17
+00:00:21,462 --> 00:00:21,464
+17. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]")
+
+18
+00:00:21,751 --> 00:00:21,753
+1. if (index % i + 3 == 0)
+
+19
+00:00:21,755 --> 00:00:21,757
+5. delay(5)
+
+20
+00:00:26,759 --> 00:00:26,761
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+
+21
+00:00:27,030 --> 00:00:27,032
+13. delay(3)
+
+22
+00:00:30,033 --> 00:00:30,035
+17. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]")
+
+23
+00:00:30,294 --> 00:00:30,296
+49. scrollToPosition(0, 0)
+
+24
+00:00:30,308 --> 00:00:30,308
+53. click(findTestObject("AddToCartObjects/CartClick"))
+
+25
+00:00:32,822 --> 00:00:32,823
+57. for (def index1 : (1..loop))
+
+26
+00:00:32,824 --> 00:00:32,824
+1. selenium.click("xpath= /html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[7]/div/a/i")
+
+27
+00:00:33,135 --> 00:00:33,137
+5. delay(3)
+
+28
+00:00:36,137 --> 00:00:36,138
+1. selenium.click("xpath= /html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[7]/div/a/i")
+
+29
+00:00:36,438 --> 00:00:36,439
+5. delay(3)
+

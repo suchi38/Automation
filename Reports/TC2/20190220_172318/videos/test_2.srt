@@ -1,0 +1,84 @@
+1
+00:00:00,785 --> 00:00:00,786
+1. driver = getWebDriver()
+
+2
+00:00:00,841 --> 00:00:00,842
+5. baseUrl = "https://www.katalon.com/"
+
+3
+00:00:00,861 --> 00:00:00,894
+9. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+4
+00:00:01,122 --> 00:00:01,123
+13. scrollToPosition(0, 800)
+
+5
+00:00:01,161 --> 00:00:01,164
+17. old_pos = 800
+
+6
+00:00:01,165 --> 00:00:01,167
+21. j = 400
+
+7
+00:00:01,168 --> 00:00:01,170
+25. i = 1
+
+8
+00:00:01,171 --> 00:00:01,173
+29. for (def index : (1..6))
+
+9
+00:00:01,178 --> 00:00:01,178
+1. if (index % i + 3 == 0)
+
+10
+00:00:01,178 --> 00:00:01,194
+5. delay(5)
+
+11
+00:00:06,194 --> 00:00:06,195
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+
+12
+00:00:06,497 --> 00:00:06,498
+13. delay(3)
+
+13
+00:00:09,498 --> 00:00:09,500
+17. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]")
+
+14
+00:00:09,826 --> 00:00:09,828
+1. if (index % i + 3 == 0)
+
+15
+00:00:09,828 --> 00:00:09,828
+5. delay(5)
+
+16
+00:00:14,829 --> 00:00:14,829
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+
+17
+00:00:15,115 --> 00:00:15,116
+13. delay(3)
+
+18
+00:00:18,117 --> 00:00:18,119
+17. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]")
+
+19
+00:00:18,394 --> 00:00:18,395
+1. if (index % i + 3 == 0)
+
+20
+00:00:18,395 --> 00:00:18,395
+5. delay(5)
+
+21
+00:00:23,396 --> 00:00:23,405
+9. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]")
+

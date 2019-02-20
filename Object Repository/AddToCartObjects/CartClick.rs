@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CartClick</name>
+   <tag></tag>
+   <elementGuidId>9cbffacd-0b81-44d9-844a-e2f768016c07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div[1]/header/div[3]/div/div/div[3]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div[1]/header/div[3]/div/div/div[3]/div/a</value>
+   </webElementProperties>
+</WebElementEntity>

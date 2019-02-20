@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC1,Firefox 65.0,,2019-02-16 17:27:20,2019-02-16 17:28:13,53.558s,ERROR
+,,,,,,
+Test Cases/TC1_CreateAccount,Firefox 65.0,,2019-02-16 17:27:20,2019-02-16 17:27:44,23.904s,ERROR
+"openBrowser(""https://www.katalon.com/"")",Firefox 65.0,,2019-02-16 17:27:21,2019-02-16 17:27:36,14.717s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2019-02-16 17:27:36,2019-02-16 17:27:36,0.029s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2019-02-16 17:27:36,2019-02-16 17:27:36,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-02-16 17:27:36,2019-02-16 17:27:36,0.352s,PASSED
+"selenium.open(""http://automationpractice.com/index.php?controller=authentication&back=my-account"")",Firefox 65.0,,2019-02-16 17:27:36,2019-02-16 17:27:41,4.726s,PASSED
+"selenium.click(""id=email_create"")",Firefox 65.0,,2019-02-16 17:27:41,2019-02-16 17:27:41,0.360s,PASSED
+"selenium.type(""id=email_create"", ""MeghanBMcDani@dayrep.com"")",Firefox 65.0,,2019-02-16 17:27:41,2019-02-16 17:27:41,0.128s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]"")",Firefox 65.0,,2019-02-16 17:27:41,2019-02-16 17:27:42,0.346s,PASSED
+delay(2),Firefox 65.0,,2019-02-16 17:27:42,2019-02-16 17:27:44,2.050s,PASSED
+"selenium.click(""//form[@id='account-creation_form']/div/div/div[2]/label/div"")",Firefox 65.0,,2019-02-16 17:27:44,2019-02-16 17:27:44,0.060s,ERROR
+,,,,,,
+Test Cases/TC2_Login,Firefox 65.0,,2019-02-16 17:27:44,2019-02-16 17:28:11,27.028s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Firefox 65.0,,2019-02-16 17:27:45,2019-02-16 17:27:58,13.438s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2019-02-16 17:27:58,2019-02-16 17:27:58,0.002s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2019-02-16 17:27:58,2019-02-16 17:27:58,0.003s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-02-16 17:27:58,2019-02-16 17:27:58,0.039s,PASSED
+"selenium.open(""http://automationpractice.com/index.php?controller=authentication&back=my-account"")",Firefox 65.0,,2019-02-16 17:27:58,2019-02-16 17:28:03,5.030s,PASSED
+delay(5),Firefox 65.0,,2019-02-16 17:28:03,2019-02-16 17:28:08,5.004s,PASSED
+"selenium.click(""id=email"")",Firefox 65.0,,2019-02-16 17:28:08,2019-02-16 17:28:08,0.357s,PASSED
+"selenium.type(""id=email"", ""MeghanBMcDani@dayrep.com"")",Firefox 65.0,,2019-02-16 17:28:08,2019-02-16 17:28:08,0.101s,PASSED
+"selenium.click(""id=passwd"")",Firefox 65.0,,2019-02-16 17:28:08,2019-02-16 17:28:09,0.322s,PASSED
+"selenium.type(""id=passwd"", ""ieFai4vahQu"")",Firefox 65.0,,2019-02-16 17:28:09,2019-02-16 17:28:09,0.092s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/following::span[1]"")",Firefox 65.0,,2019-02-16 17:28:09,2019-02-16 17:28:11,2.092s,PASSED

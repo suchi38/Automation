@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC1,Firefox 65.0,,2019-02-18 18:45:03,2019-02-18 18:46:29,1m - 25.162s,PASSED
+,,,,,,
+Test Cases/TC3_CreateAccount,Firefox 65.0,,2019-02-18 18:45:04,2019-02-18 18:45:33,28.991s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-18 18:45:05,2019-02-18 18:45:11,6.658s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Firefox 65.0,,2019-02-18 18:45:11,2019-02-18 18:45:20,8.749s,PASSED
+"click(findTestObject(""Object Repository/CreateAccount/Page_My Store/a_Sign in""))",Firefox 65.0,,2019-02-18 18:45:20,2019-02-18 18:45:23,2.691s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea""), email)",Firefox 65.0,,2019-02-18 18:45:23,2019-02-18 18:45:23,0.188s,PASSED
+"click(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/button_Create an account""))",Firefox 65.0,,2019-02-18 18:45:23,2019-02-18 18:45:23,0.326s,PASSED
+"click(findTestObject(""CreateAccount/Page_Login - My Store/input_Mr._id_gender""))",Firefox 65.0,,2019-02-18 18:45:23,2019-02-18 18:45:25,1.796s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname""), firstname)",Firefox 65.0,,2019-02-18 18:45:25,2019-02-18 18:45:25,0.120s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname""), lastname)",Firefox 65.0,,2019-02-18 18:45:25,2019-02-18 18:45:25,0.214s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__passwd""), password)",Firefox 65.0,,2019-02-18 18:45:25,2019-02-18 18:45:26,0.113s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151""), birthday, true)",Firefox 65.0,,2019-02-18 18:45:26,2019-02-18 18:45:27,1.183s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp""), birthmonth, true)",Firefox 65.0,,2019-02-18 18:45:27,2019-02-18 18:45:27,0.619s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520""), birthyear, true)",Firefox 65.0,,2019-02-18 18:45:27,2019-02-18 18:45:29,1.756s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input_Company_company""), company)",Firefox 65.0,,2019-02-18 18:45:29,2019-02-18 18:45:29,0.093s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__address1""), address1)",Firefox 65.0,,2019-02-18 18:45:29,2019-02-18 18:45:29,0.102s,PASSED
+"click(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su""))",Firefox 65.0,,2019-02-18 18:45:29,2019-02-18 18:45:30,0.265s,PASSED
+"setText(findTestObject(""CreateAccount/Page_Login - My Store/input_Address (Line 2)_address""), address2)",Firefox 65.0,,2019-02-18 18:45:30,2019-02-18 18:45:30,0.090s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__city""), city)",Firefox 65.0,,2019-02-18 18:45:30,2019-02-18 18:45:30,0.086s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr""), state, true)",Firefox 65.0,,2019-02-18 18:45:30,2019-02-18 18:45:31,1.073s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__postcode""), postcode)",Firefox 65.0,,2019-02-18 18:45:31,2019-02-18 18:45:31,0.095s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__phone_mobile""), phone)",Firefox 65.0,,2019-02-18 18:45:31,2019-02-18 18:45:31,0.102s,PASSED
+"click(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/button_Register""))",Firefox 65.0,,2019-02-18 18:45:31,2019-02-18 18:45:33,1.832s,PASSED
+,,,,,,
+Test Cases/TC3_CreateAccount,Firefox 65.0,,2019-02-18 18:45:33,2019-02-18 18:45:59,26.349s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-18 18:45:33,2019-02-18 18:45:40,7.124s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Firefox 65.0,,2019-02-18 18:45:40,2019-02-18 18:45:46,6.258s,PASSED
+"click(findTestObject(""Object Repository/CreateAccount/Page_My Store/a_Sign in""))",Firefox 65.0,,2019-02-18 18:45:46,2019-02-18 18:45:49,2.341s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea""), email)",Firefox 65.0,,2019-02-18 18:45:49,2019-02-18 18:45:49,0.154s,PASSED
+"click(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/button_Create an account""))",Firefox 65.0,,2019-02-18 18:45:49,2019-02-18 18:45:49,0.319s,PASSED
+"click(findTestObject(""CreateAccount/Page_Login - My Store/input_Mr._id_gender""))",Firefox 65.0,,2019-02-18 18:45:49,2019-02-18 18:45:51,1.812s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname""), firstname)",Firefox 65.0,,2019-02-18 18:45:51,2019-02-18 18:45:51,0.179s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname""), lastname)",Firefox 65.0,,2019-02-18 18:45:51,2019-02-18 18:45:51,0.105s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__passwd""), password)",Firefox 65.0,,2019-02-18 18:45:51,2019-02-18 18:45:51,0.145s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151""), birthday, true)",Firefox 65.0,,2019-02-18 18:45:51,2019-02-18 18:45:52,0.845s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp""), birthmonth, true)",Firefox 65.0,,2019-02-18 18:45:52,2019-02-18 18:45:53,0.621s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520""), birthyear, true)",Firefox 65.0,,2019-02-18 18:45:53,2019-02-18 18:45:55,1.882s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input_Company_company""), company)",Firefox 65.0,,2019-02-18 18:45:55,2019-02-18 18:45:55,0.108s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__address1""), address1)",Firefox 65.0,,2019-02-18 18:45:55,2019-02-18 18:45:55,0.105s,PASSED
+"click(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su""))",Firefox 65.0,,2019-02-18 18:45:55,2019-02-18 18:45:55,0.259s,PASSED
+"setText(findTestObject(""CreateAccount/Page_Login - My Store/input_Address (Line 2)_address""), address2)",Firefox 65.0,,2019-02-18 18:45:55,2019-02-18 18:45:55,0.078s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__city""), city)",Firefox 65.0,,2019-02-18 18:45:55,2019-02-18 18:45:55,0.081s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr""), state, true)",Firefox 65.0,,2019-02-18 18:45:55,2019-02-18 18:45:56,1.078s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__postcode""), postcode)",Firefox 65.0,,2019-02-18 18:45:56,2019-02-18 18:45:56,0.086s,PASSED
+"setText(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/input__phone_mobile""), phone)",Firefox 65.0,,2019-02-18 18:45:56,2019-02-18 18:45:57,0.092s,PASSED
+"click(findTestObject(""Object Repository/CreateAccount/Page_Login - My Store/button_Register""))",Firefox 65.0,,2019-02-18 18:45:57,2019-02-18 18:45:59,2.633s,PASSED
+,,,,,,
+Test Cases/TC2_Login,Firefox 65.0,,2019-02-18 18:45:59,2019-02-18 18:46:27,27.414s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Firefox 65.0,,2019-02-18 18:46:00,2019-02-18 18:46:13,13.133s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2019-02-18 18:46:13,2019-02-18 18:46:13,0.008s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2019-02-18 18:46:13,2019-02-18 18:46:13,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-02-18 18:46:13,2019-02-18 18:46:13,0.231s,PASSED
+"selenium.open(""http://automationpractice.com/index.php?controller=authentication&back=my-account"")",Firefox 65.0,,2019-02-18 18:46:13,2019-02-18 18:46:18,5.236s,PASSED
+delay(5),Firefox 65.0,,2019-02-18 18:46:18,2019-02-18 18:46:23,5.051s,PASSED
+"selenium.click(""id=email"")",Firefox 65.0,,2019-02-18 18:46:23,2019-02-18 18:46:24,0.318s,PASSED
+"selenium.type(""id=email"", ""MeghanBMcDan@dayrep.com"")",Firefox 65.0,,2019-02-18 18:46:24,2019-02-18 18:46:24,0.089s,PASSED
+"selenium.click(""id=passwd"")",Firefox 65.0,,2019-02-18 18:46:24,2019-02-18 18:46:24,0.308s,PASSED
+"selenium.type(""id=passwd"", ""ieFai4vahQu"")",Firefox 65.0,,2019-02-18 18:46:24,2019-02-18 18:46:24,0.102s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/following::span[1]"")",Firefox 65.0,,2019-02-18 18:46:24,2019-02-18 18:46:27,2.439s,PASSED

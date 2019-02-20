@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1" time="297" tests="3" failures="2" errors="0">
+   <testsuite name="TC1" tests="3" failures="2" errors="0" time="297" timestamp="2019-02-19 18:43:24" hostname="dell - computer" id="Test Suites/TC1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190219_184321"/>
+         <property name="logFiles" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190219_184321\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190219_184321\\1550582096775.png, C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190219_184321\\1550582145605.png"/>
+         <property name="hostName" value="dell - computer"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.1.146"/>
+         <property name="sessionId" value="02dd65c6-08e3-45fc-b18a-c2190f114e26"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TC1_CreateAccount" classname="Test Cases/TC1_CreateAccount" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC1_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-19 18:43:25 - [TEST_CASE][FAILED] - Test Cases/TC1_CreateAccount: Test Cases/TC1_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)
+
+
+2019-02-19 18:43:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-19 18:43:27 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-19 18:43:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-19 18:43:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-19 18:43:35 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-19 18:44:02 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-19 18:44:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_My Store/a_Sign in")): Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-19 18:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-19 18:44:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea"), email): Text 'Williajohens@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-19 18:44:25 - [MESSAGE][PASSED] - Text 'Williajohens@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-19 18:44:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Create an account")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-19 18:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-19 18:44:26 - [TEST_STEP][FAILED] - click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")): click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)
+
+
+2019-02-19 18:44:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='id_gender1']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-19 18:44:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190219_184321\\1550582096775.png]]
+
+2019-02-19 18:44:56 - [MESSAGE][FAILED] - click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-19 18:43:25 - [TEST_CASE][FAILED] - Test Cases/TC1_CreateAccount: Test Cases/TC1_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1_CreateAccount" classname="Test Cases/TC1_CreateAccount" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC1_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-19 18:44:59 - [TEST_CASE][FAILED] - Test Cases/TC1_CreateAccount: Test Cases/TC1_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)
+
+
+2019-02-19 18:44:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-19 18:44:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-19 18:45:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-19 18:45:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-19 18:45:06 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-19 18:45:12 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-19 18:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_My Store/a_Sign in")): Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-19 18:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-19 18:45:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea"), email): Text 'marybarsser@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-19 18:45:14 - [MESSAGE][PASSED] - Text 'marybarsser@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-19 18:45:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Create an account")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-19 18:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-19 18:45:15 - [TEST_STEP][FAILED] - click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")): click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)
+
+
+2019-02-19 18:45:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='id_gender1']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-19 18:45:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190219_184321\\1550582145605.png]]
+
+2019-02-19 18:45:45 - [MESSAGE][FAILED] - click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-19 18:44:59 - [TEST_CASE][FAILED] - Test Cases/TC1_CreateAccount: Test Cases/TC1_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_Login" classname="Test Cases/TC2_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-19 18:45:47 - [TEST_CASE][PASSED] - Test Cases/TC2_Login: Test Cases/TC2_Login
+
+2019-02-19 18:45:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-19 18:45:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-19 18:45:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-19 18:45:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-19 18:45:55 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-19 18:46:03 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-19 18:46:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_My Store/a_Sign in")): Object: 'Object Repository/Login/Page_My Store/a_Sign in' is clicked on
+
+2019-02-19 18:46:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_My Store/a_Sign in' is clicked on
+
+2019-02-19 18:46:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Email address_email"), email): Text 'Williajohens@rhyta.com' is set on object 'Object Repository/Login/Page_Login - My Store/input_Email address_email'
+
+2019-02-19 18:46:05 - [MESSAGE][PASSED] - Text 'Williajohens@rhyta.com' is set on object 'Object Repository/Login/Page_Login - My Store/input_Email address_email'
+
+2019-02-19 18:46:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Password_passwd"), password): Text 'suchinaik' is set on object 'Object Repository/Login/Page_Login - My Store/input_Password_passwd'
+
+2019-02-19 18:46:05 - [MESSAGE][PASSED] - Text 'suchinaik' is set on object 'Object Repository/Login/Page_Login - My Store/input_Password_passwd'
+
+2019-02-19 18:46:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Login - My Store/button_Sign in")): Object: 'Object Repository/Login/Page_Login - My Store/button_Sign in' is clicked on
+
+2019-02-19 18:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login - My Store/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_Login" classname="Test Cases/TC2_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-19 18:46:09 - [TEST_CASE][PASSED] - Test Cases/TC2_Login: Test Cases/TC2_Login
+
+2019-02-19 18:46:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-19 18:46:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-19 18:46:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-19 18:46:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-19 18:46:17 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-19 18:46:26 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-19 18:46:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_My Store/a_Sign in")): Object: 'Object Repository/Login/Page_My Store/a_Sign in' is clicked on
+
+2019-02-19 18:46:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_My Store/a_Sign in' is clicked on
+
+2019-02-19 18:46:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Email address_email"), email): Text 'marybarsser@rhyta.com' is set on object 'Object Repository/Login/Page_Login - My Store/input_Email address_email'
+
+2019-02-19 18:46:29 - [MESSAGE][PASSED] - Text 'marybarsser@rhyta.com' is set on object 'Object Repository/Login/Page_Login - My Store/input_Email address_email'
+
+2019-02-19 18:46:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Password_passwd"), password): Text 'naiksuchi' is set on object 'Object Repository/Login/Page_Login - My Store/input_Password_passwd'
+
+2019-02-19 18:46:29 - [MESSAGE][PASSED] - Text 'naiksuchi' is set on object 'Object Repository/Login/Page_Login - My Store/input_Password_passwd'
+
+2019-02-19 18:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Login - My Store/button_Sign in")): Object: 'Object Repository/Login/Page_Login - My Store/button_Sign in' is clicked on
+
+2019-02-19 18:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login - My Store/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC3_AddToCart" classname="Test Cases/TC3_AddToCart" status="PASSED">
+         <system-out><![CDATA[2019-02-19 18:46:33 - [TEST_CASE][PASSED] - Test Cases/TC3_AddToCart: Test Cases/TC3_AddToCart
+
+2019-02-19 18:46:34 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-19 18:46:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-19 18:46:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-19 18:46:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-19 18:46:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-02-19 18:46:49 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-02-19 18:46:49 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-02-19 18:46:49 - [TEST_STEP][PASSED] - selenium.open("http://automationpractice.com/index.php"): null
+
+2019-02-19 18:46:58 - [TEST_STEP][PASSED] - selenium.click("link=Women"): null
+
+2019-02-19 18:47:01 - [TEST_STEP][PASSED] - scrollToPosition(0, 800): Browser is scrolled to position x = 0, y = 800
+
+2019-02-19 18:47:01 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 800
+
+2019-02-19 18:47:01 - [TEST_STEP][PASSED] - old_pos = 800: null
+
+2019-02-19 18:47:01 - [TEST_STEP][PASSED] - j = 400: null
+
+2019-02-19 18:47:01 - [TEST_STEP][PASSED] - i = 1: null
+
+2019-02-19 18:47:01 - [TEST_STEP][PASSED] - for (def index : (1..6)): null
+
+2019-02-19 18:47:01 - [TEST_STEP][PASSED] - if (index % i + 3 == 0): null
+
+2019-02-19 18:47:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-19 18:47:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 18:47:06 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]"): null
+
+2019-02-19 18:47:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:47:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:47:09 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]"): null
+
+2019-02-19 18:47:09 - [TEST_STEP][PASSED] - if (index % i + 3 == 0): null
+
+2019-02-19 18:47:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-19 18:47:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 18:47:14 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]"): null
+
+2019-02-19 18:47:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:47:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:47:18 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]"): null
+
+2019-02-19 18:47:18 - [TEST_STEP][PASSED] - if (index % i + 3 == 0): null
+
+2019-02-19 18:47:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-19 18:47:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 18:47:23 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]"): null
+
+2019-02-19 18:47:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:47:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:47:26 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]"): null
+
+2019-02-19 18:47:27 - [TEST_STEP][PASSED] - if (index % i + 3 == 0): Browser is scrolled to position x = 0, y = 1200
+
+2019-02-19 18:47:27 - [TEST_STEP][PASSED] - old_pos = old_pos + j: null
+
+2019-02-19 18:47:27 - [TEST_STEP][PASSED] - scrollToPosition(0, old_pos): Browser is scrolled to position x = 0, y = 1200
+
+2019-02-19 18:47:27 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1200
+
+2019-02-19 18:47:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-19 18:47:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 18:47:32 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]"): null
+
+2019-02-19 18:47:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:47:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:47:35 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]"): null
+
+2019-02-19 18:47:35 - [TEST_STEP][PASSED] - if (index % i + 3 == 0): null
+
+2019-02-19 18:47:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-19 18:47:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 18:47:40 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]"): null
+
+2019-02-19 18:47:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:47:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:47:44 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]"): null
+
+2019-02-19 18:47:44 - [TEST_STEP][PASSED] - if (index % i + 3 == 0): null
+
+2019-02-19 18:47:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-19 18:47:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-19 18:47:49 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='More'])[" + index + "]/preceding::span[1]"): null
+
+2019-02-19 18:47:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:47:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:47:52 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::span[2]"): null
+
+2019-02-19 18:47:52 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-02-19 18:47:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-02-19 18:47:53 - [TEST_STEP][PASSED] - click(findTestObject("AddToCartObjects/CartClick")): Object: 'Object Repository/AddToCartObjects/CartClick' is clicked on
+
+2019-02-19 18:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AddToCartObjects/CartClick' is clicked on
+
+2019-02-19 18:47:57 - [TEST_STEP][PASSED] - for (def index1 : (1..6)): Delayed 3 second(s)
+
+2019-02-19 18:47:57 - [TEST_STEP][PASSED] - selenium.click("xpath= /html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[7]/div/a/i"): null
+
+2019-02-19 18:47:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:48:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:48:01 - [TEST_STEP][PASSED] - selenium.click("xpath= /html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[7]/div/a/i"): null
+
+2019-02-19 18:48:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:48:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:48:04 - [TEST_STEP][PASSED] - selenium.click("xpath= /html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[7]/div/a/i"): null
+
+2019-02-19 18:48:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:48:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:48:07 - [TEST_STEP][PASSED] - selenium.click("xpath= /html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[7]/div/a/i"): null
+
+2019-02-19 18:48:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:48:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:48:11 - [TEST_STEP][PASSED] - selenium.click("xpath= /html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[7]/div/a/i"): null
+
+2019-02-19 18:48:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:48:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-19 18:48:14 - [TEST_STEP][PASSED] - selenium.click("xpath= /html/body/div/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]/td[7]/div/a/i"): null
+
+2019-02-19 18:48:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-19 18:48:17 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-19 18:43:24 - [TEST_SUITE][FAILED] - TC1: Test Cases/TC1_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-19 18:43:24 - [TEST_SUITE][FAILED] - TC1: Test Cases/TC1_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' located by 'By.xpath: //input[@id='id_gender1']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC1_CreateAccount.run(TC1_CreateAccount:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550582001253.run(TempTestSuite1550582001253.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC2,Firefox 65.0,,2019-02-20 17:55:04,2019-02-20 17:56:18,1m - 13.718s,PASSED
+,,,,,,
+Test Cases/TC4_FilterOption,Firefox 65.0,,2019-02-20 17:55:04,2019-02-20 17:55:34,30.004s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-20 17:55:05,2019-02-20 17:55:14,9.105s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php?id_category=3&controller=category"")",Firefox 65.0,,2019-02-20 17:55:14,2019-02-20 17:55:23,8.943s,PASSED
+delay(3),Firefox 65.0,,2019-02-20 17:55:23,2019-02-20 17:55:26,3.050s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_Categories_layered_categ (1)""))",Firefox 65.0,,2019-02-20 17:55:26,2019-02-20 17:55:27,0.434s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_(7)_layered_id_attribute (1)""))",Firefox 65.0,,2019-02-20 17:55:27,2019-02-20 17:55:27,0.336s,PASSED
+delay(5),Firefox 65.0,,2019-02-20 17:55:27,2019-02-20 17:55:32,5.002s,PASSED
+,,,,,,
+Test Cases/TC3_AddToCart - Copy,Firefox 65.0,,2019-02-20 17:55:34,2019-02-20 17:56:16,41.551s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2019-02-20 17:55:35,2019-02-20 17:55:35,0.002s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2019-02-20 17:55:35,2019-02-20 17:55:35,0.016s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-02-20 17:55:35,2019-02-20 17:55:35,0.299s,PASSED
+"scrollToPosition(0, 800)",Firefox 65.0,,2019-02-20 17:55:35,2019-02-20 17:55:35,0.104s,PASSED
+old_pos = 800,Firefox 65.0,,2019-02-20 17:55:35,2019-02-20 17:55:35,0.000s,PASSED
+j = 400,Firefox 65.0,,2019-02-20 17:55:35,2019-02-20 17:55:35,0.000s,PASSED
+i = 1,Firefox 65.0,,2019-02-20 17:55:35,2019-02-20 17:55:35,0.000s,PASSED
+frame = new javax.swing.JFrame(User loop),Firefox 65.0,,2019-02-20 17:55:35,2019-02-20 17:55:36,0.163s,PASSED
+frame.requestFocus(),Firefox 65.0,,2019-02-20 17:55:36,2019-02-20 17:55:36,0.016s,PASSED
+"loop = Integer.parseInt(JOptionPane.showInputDialog(frame, ""Enter the loop""))",Firefox 65.0,,2019-02-20 17:55:36,2019-02-20 17:55:41,5.740s,PASSED
+delay(6),Firefox 65.0,,2019-02-20 17:55:41,2019-02-20 17:55:47,6.010s,PASSED
+for (def index : (1..loop)),Firefox 65.0,,2019-02-20 17:55:47,2019-02-20 17:56:05,17.155s,PASSED
+"scrollToPosition(0, 0)",Firefox 65.0,,2019-02-20 17:56:05,2019-02-20 17:56:05,0.013s,PASSED
+"click(findTestObject(""AddToCartObjects/CartClick""))",Firefox 65.0,,2019-02-20 17:56:05,2019-02-20 17:56:07,2.514s,PASSED
+for (def index1 : (1..loop)),Firefox 65.0,,2019-02-20 17:56:07,2019-02-20 17:56:14,6.617s,PASSED

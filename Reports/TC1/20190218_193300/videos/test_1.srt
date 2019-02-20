@@ -1,0 +1,84 @@
+1
+00:00:01,057 --> 00:00:01,079
+1. openBrowser("")
+
+2
+00:00:10,850 --> 00:00:10,850
+5. navigateToUrl("http://automationpractice.com/index.php")
+
+3
+00:00:26,470 --> 00:00:26,472
+9. click(findTestObject("Object Repository/CreateAccount/Page_My Store/a_Sign in"))
+
+4
+00:00:31,638 --> 00:00:31,641
+13. setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea"), email)
+
+5
+00:00:31,895 --> 00:00:31,896
+17. click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Create an account"))
+
+6
+00:00:32,267 --> 00:00:32,268
+21. click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender"))
+
+7
+00:00:34,657 --> 00:00:34,662
+25. setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname"), firstname)
+
+8
+00:00:34,788 --> 00:00:34,790
+29. setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname"), lastname)
+
+9
+00:00:34,922 --> 00:00:34,923
+33. setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__passwd"), password)
+
+10
+00:00:35,043 --> 00:00:35,045
+37. selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151"), birthday, true)
+
+11
+00:00:36,572 --> 00:00:36,573
+41. selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp"), birthmonth, true)
+
+12
+00:00:37,287 --> 00:00:37,288
+45. selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520"), birthyear, true)
+
+13
+00:00:39,998 --> 00:00:40,000
+49. setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Company_company"), company)
+
+14
+00:00:40,101 --> 00:00:40,102
+53. setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__address1"), address1)
+
+15
+00:00:40,249 --> 00:00:40,251
+57. click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su"))
+
+16
+00:00:40,507 --> 00:00:40,512
+61. setText(findTestObject("CreateAccount/Page_Login - My Store/input_Address (Line 2)_address"), address2)
+
+17
+00:00:40,622 --> 00:00:40,622
+65. setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__city"), city)
+
+18
+00:00:40,735 --> 00:00:40,736
+69. selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr"), state, true)
+
+19
+00:00:42,301 --> 00:00:42,302
+73. setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__postcode"), postcode)
+
+20
+00:00:42,452 --> 00:00:42,453
+77. setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__phone_mobile"), phone)
+
+21
+00:00:42,602 --> 00:00:42,604
+81. click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Register"))
+

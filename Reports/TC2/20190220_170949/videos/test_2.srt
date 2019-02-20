@@ -1,0 +1,12 @@
+1
+00:00:00,637 --> 00:00:00,639
+1. driver = getWebDriver()
+
+2
+00:00:00,654 --> 00:00:00,654
+5. baseUrl = "https://www.katalon.com/"
+
+3
+00:00:00,654 --> 00:00:00,670
+9. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+

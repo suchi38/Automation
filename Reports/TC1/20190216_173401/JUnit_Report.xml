@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1" time="65" tests="2" failures="0" errors="0">
+   <testsuite name="TC1" tests="2" failures="0" errors="0" time="65" timestamp="2019-02-16 17:34:04" hostname="dell - computer" id="Test Suites/TC1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190216_173401"/>
+         <property name="logFiles" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190216_173401\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dell - computer"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.1.146"/>
+         <property name="sessionId" value="6b86f088-3d13-4f8a-b1ad-475fb62a956f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TC1_CreateAccount" classname="Test Cases/TC1_CreateAccount" status="PASSED">
+         <system-out><![CDATA[2019-02-16 17:34:04 - [TEST_CASE][PASSED] - Test Cases/TC1_CreateAccount: Test Cases/TC1_CreateAccount
+
+2019-02-16 17:34:05 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-16 17:34:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-16 17:34:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-16 17:34:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-16 17:34:19 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-02-16 17:34:19 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-02-16 17:34:19 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-02-16 17:34:19 - [TEST_STEP][PASSED] - selenium.open("http://automationpractice.com/index.php?controller=authentication&back=my-account"): null
+
+2019-02-16 17:34:24 - [TEST_STEP][PASSED] - selenium.click("id=email_create"): null
+
+2019-02-16 17:34:24 - [TEST_STEP][PASSED] - selenium.type("id=email_create", "MeghanBMcDan@dayrep.com"): null
+
+2019-02-16 17:34:24 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]"): null
+
+2019-02-16 17:34:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-16 17:34:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-16 17:34:27 - [TEST_STEP][PASSED] - selenium.click("//form[@id='account-creation_form']/div/div/div[2]/label/div"): null
+
+2019-02-16 17:34:27 - [TEST_STEP][PASSED] - selenium.click("id=customer_firstname"): null
+
+2019-02-16 17:34:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-16 17:34:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-16 17:34:29 - [TEST_STEP][PASSED] - selenium.type("id=customer_firstname", "Meghan"): null
+
+2019-02-16 17:34:30 - [TEST_STEP][PASSED] - selenium.click("id=customer_lastname"): null
+
+2019-02-16 17:34:30 - [TEST_STEP][PASSED] - selenium.type("id=customer_lastname", "Mcdaniel"): null
+
+2019-02-16 17:34:30 - [TEST_STEP][PASSED] - selenium.click("id=passwd"): null
+
+2019-02-16 17:34:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-16 17:34:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-16 17:34:32 - [TEST_STEP][PASSED] - selenium.type("id=passwd", "ieFai4vahQu"): null
+
+2019-02-16 17:34:32 - [TEST_STEP][PASSED] - selenium.click("id=days"): null
+
+2019-02-16 17:34:33 - [TEST_STEP][PASSED] - selenium.select("id=days", "label=regexp:14\s+"): null
+
+2019-02-16 17:34:33 - [TEST_STEP][PASSED] - selenium.click("id=days"): null
+
+2019-02-16 17:34:33 - [TEST_STEP][PASSED] - selenium.click("id=months"): null
+
+2019-02-16 17:34:34 - [TEST_STEP][PASSED] - selenium.select("id=months", "label=regexp:March\s"): null
+
+2019-02-16 17:34:34 - [TEST_STEP][PASSED] - selenium.click("id=months"): null
+
+2019-02-16 17:34:34 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::div[6]"): null
+
+2019-02-16 17:34:34 - [TEST_STEP][PASSED] - selenium.click("id=years"): null
+
+2019-02-16 17:34:35 - [TEST_STEP][PASSED] - selenium.select("id=years", "label=regexp:2005\s+"): null
+
+2019-02-16 17:34:35 - [TEST_STEP][PASSED] - selenium.click("id=years"): null
+
+2019-02-16 17:34:35 - [TEST_STEP][PASSED] - setText(findTestObject("Firstname"), "Meghan"): Text 'Meghan' is set on object 'Object Repository/Firstname'
+
+2019-02-16 17:34:36 - [MESSAGE][PASSED] - Text 'Meghan' is set on object 'Object Repository/Firstname'
+
+2019-02-16 17:34:36 - [TEST_STEP][PASSED] - setText(findTestObject("Lastname"), "McDaniel"): Text 'McDaniel' is set on object 'Object Repository/Lastname'
+
+2019-02-16 17:34:36 - [MESSAGE][PASSED] - Text 'McDaniel' is set on object 'Object Repository/Lastname'
+
+2019-02-16 17:34:36 - [TEST_STEP][PASSED] - selenium.click("id=company"): null
+
+2019-02-16 17:34:36 - [TEST_STEP][PASSED] - selenium.type("id=company", "Briazz"): null
+
+2019-02-16 17:34:36 - [TEST_STEP][PASSED] - selenium.click("id=address1"): null
+
+2019-02-16 17:34:36 - [TEST_STEP][PASSED] - selenium.type("id=address1", "279 Riverside Drive"): null
+
+2019-02-16 17:34:37 - [TEST_STEP][PASSED] - selenium.click("id=address2"): null
+
+2019-02-16 17:34:37 - [TEST_STEP][PASSED] - selenium.type("id=address2", "Blairsville"): null
+
+2019-02-16 17:34:37 - [TEST_STEP][PASSED] - selenium.click("id=city"): null
+
+2019-02-16 17:34:37 - [TEST_STEP][PASSED] - selenium.type("id=city", "Blairsville"): null
+
+2019-02-16 17:34:37 - [TEST_STEP][PASSED] - selenium.click("id=id_state"): null
+
+2019-02-16 17:34:38 - [TEST_STEP][PASSED] - selenium.select("id=id_state", "label=Georgia"): null
+
+2019-02-16 17:34:38 - [TEST_STEP][PASSED] - selenium.click("id=id_state"): null
+
+2019-02-16 17:34:38 - [TEST_STEP][PASSED] - selenium.click("id=postcode"): null
+
+2019-02-16 17:34:39 - [TEST_STEP][PASSED] - selenium.type("id=postcode", "30512"): null
+
+2019-02-16 17:34:39 - [TEST_STEP][PASSED] - selenium.click("id=phone_mobile"): null
+
+2019-02-16 17:34:39 - [TEST_STEP][PASSED] - selenium.type("id=phone_mobile", "669039742"): null
+
+2019-02-16 17:34:39 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='DNI / NIF / NIE'])[1]/following::span[1]"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_Login" classname="Test Cases/TC2_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-16 17:34:41 - [TEST_CASE][PASSED] - Test Cases/TC2_Login: Test Cases/TC2_Login
+
+2019-02-16 17:34:42 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-16 17:34:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-16 17:34:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-16 17:34:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-16 17:34:55 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-02-16 17:34:55 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-02-16 17:34:55 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-02-16 17:34:55 - [TEST_STEP][PASSED] - selenium.open("http://automationpractice.com/index.php?controller=authentication&back=my-account"): null
+
+2019-02-16 17:35:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-16 17:35:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-16 17:35:05 - [TEST_STEP][PASSED] - selenium.click("id=email"): null
+
+2019-02-16 17:35:05 - [TEST_STEP][PASSED] - selenium.type("id=email", "MeghanBMcDan@dayrep.com"): null
+
+2019-02-16 17:35:05 - [TEST_STEP][PASSED] - selenium.click("id=passwd"): null
+
+2019-02-16 17:35:05 - [TEST_STEP][PASSED] - selenium.type("id=passwd", "ieFai4vahQu"): null
+
+2019-02-16 17:35:05 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/following::span[1]"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-16 17:34:04 - [TEST_SUITE][PASSED] - TC1: Test Cases/TC2_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

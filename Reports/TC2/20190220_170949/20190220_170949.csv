@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC2,Firefox 65.0,,2019-02-20 17:09:52,2019-02-20 17:10:17,24.599s,INCOMPLETE
+,,,,,,
+Test Cases/TC4_FilterOption,Firefox 65.0,,2019-02-20 17:09:52,2019-02-20 17:10:14,21.280s,FAILED
+"openBrowser("""")",Firefox 65.0,,2019-02-20 17:09:53,2019-02-20 17:10:03,9.190s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php?id_category=3&controller=category"")",Firefox 65.0,,2019-02-20 17:10:03,2019-02-20 17:10:04,1.261s,PASSED
+delay(3),Firefox 65.0,,2019-02-20 17:10:04,2019-02-20 17:10:07,3.086s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_Categories_layered_categ (1)""))",Firefox 65.0,,2019-02-20 17:10:07,2019-02-20 17:10:12,4.650s,FAILED
+,,,,,,
+Test Cases/TC3_AddToCart - Copy,Firefox 65.0,,2019-02-20 17:10:14,2019-02-20 17:10:17,2.910s,ERROR
+driver = getWebDriver(),Firefox 65.0,,2019-02-20 17:10:14,2019-02-20 17:10:14,0.016s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2019-02-20 17:10:14,2019-02-20 17:10:14,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-02-20 17:10:14,2019-02-20 17:10:15,0.151s,ERROR

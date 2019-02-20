@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1" time="147" tests="4" failures="0" errors="0">
+   <testsuite name="TC1" tests="4" failures="0" errors="0" time="147" timestamp="2019-02-18 19:33:03" hostname="dell - computer" id="Test Suites/TC1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190218_193300"/>
+         <property name="logFiles" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190218_193300\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dell - computer"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="172.20.10.3"/>
+         <property name="sessionId" value="0b7cd1f0-ed90-4cfb-992b-0376375e5ae6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TC3_CreateAccount" classname="Test Cases/TC3_CreateAccount" status="PASSED">
+         <system-out><![CDATA[2019-02-18 19:33:03 - [TEST_CASE][PASSED] - Test Cases/TC3_CreateAccount: Test Cases/TC3_CreateAccount
+
+2019-02-18 19:33:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-18 19:33:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-18 19:33:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-18 19:33:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-18 19:33:15 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 19:33:30 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 19:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_My Store/a_Sign in")): Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 19:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 19:33:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea"), email): Text 'Williajohens@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-18 19:33:36 - [MESSAGE][PASSED] - Text 'Williajohens@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-18 19:33:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Create an account")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-18 19:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-18 19:33:36 - [TEST_STEP][PASSED] - click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2019-02-18 19:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2019-02-18 19:33:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname"), firstname): Text 'William' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname'
+
+2019-02-18 19:33:38 - [MESSAGE][PASSED] - Text 'William' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname'
+
+2019-02-18 19:33:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname"), lastname): Text 'Wiilaits' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname'
+
+2019-02-18 19:33:39 - [MESSAGE][PASSED] - Text 'Wiilaits' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname'
+
+2019-02-18 19:33:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__passwd"), password): Text 'suchinaik' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__passwd'
+
+2019-02-18 19:33:39 - [MESSAGE][PASSED] - Text 'suchinaik' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__passwd'
+
+2019-02-18 19:33:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151"), birthday, true): All options with value '23' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2019-02-18 19:33:40 - [MESSAGE][PASSED] - All options with value '23' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2019-02-18 19:33:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp"), birthmonth, true): All options with value '5' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2019-02-18 19:33:41 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2019-02-18 19:33:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520"), birthyear, true): All options with value '1997' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520'  using regular expression
+
+2019-02-18 19:33:44 - [MESSAGE][PASSED] - All options with value '1997' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520'  using regular expression
+
+2019-02-18 19:33:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Company_company"), company): Text 'narola' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Company_company'
+
+2019-02-18 19:33:44 - [MESSAGE][PASSED] - Text 'narola' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Company_company'
+
+2019-02-18 19:33:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__address1"), address1): Text '1359 Graystone Lakes' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__address1'
+
+2019-02-18 19:33:44 - [MESSAGE][PASSED] - Text '1359 Graystone Lakes' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__address1'
+
+2019-02-18 19:33:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su' is clicked on
+
+2019-02-18 19:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su' is clicked on
+
+2019-02-18 19:33:44 - [TEST_STEP][PASSED] - setText(findTestObject("CreateAccount/Page_Login - My Store/input_Address (Line 2)_address"), address2): Text 'Sandersville' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Address (Line 2)_address'
+
+2019-02-18 19:33:44 - [MESSAGE][PASSED] - Text 'Sandersville' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Address (Line 2)_address'
+
+2019-02-18 19:33:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__city"), city): Text 'Georgia' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__city'
+
+2019-02-18 19:33:44 - [MESSAGE][PASSED] - Text 'Georgia' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__city'
+
+2019-02-18 19:33:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr"), state, true): All options with value '10' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2019-02-18 19:33:46 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2019-02-18 19:33:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__postcode"), postcode): Text '31082' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__postcode'
+
+2019-02-18 19:33:46 - [MESSAGE][PASSED] - Text '31082' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__postcode'
+
+2019-02-18 19:33:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__phone_mobile"), phone): Text '7799746338' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__phone_mobile'
+
+2019-02-18 19:33:46 - [MESSAGE][PASSED] - Text '7799746338' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__phone_mobile'
+
+2019-02-18 19:33:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Register")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Register' is clicked on
+
+2019-02-18 19:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Register' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC3_CreateAccount" classname="Test Cases/TC3_CreateAccount" status="PASSED">
+         <system-out><![CDATA[2019-02-18 19:33:51 - [TEST_CASE][PASSED] - Test Cases/TC3_CreateAccount: Test Cases/TC3_CreateAccount
+
+2019-02-18 19:33:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-18 19:33:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-18 19:33:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-18 19:34:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-18 19:34:00 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 19:34:11 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 19:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_My Store/a_Sign in")): Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 19:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 19:34:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea"), email): Text 'marybarsser@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-18 19:34:16 - [MESSAGE][PASSED] - Text 'marybarsser@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-18 19:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Create an account")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-18 19:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-18 19:34:16 - [TEST_STEP][PASSED] - click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2019-02-18 19:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2019-02-18 19:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname"), firstname): Text 'Mary' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname'
+
+2019-02-18 19:34:18 - [MESSAGE][PASSED] - Text 'Mary' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname'
+
+2019-02-18 19:34:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname"), lastname): Text 'Baker' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname'
+
+2019-02-18 19:34:19 - [MESSAGE][PASSED] - Text 'Baker' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname'
+
+2019-02-18 19:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__passwd"), password): Text 'naiksuchi' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__passwd'
+
+2019-02-18 19:34:19 - [MESSAGE][PASSED] - Text 'naiksuchi' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__passwd'
+
+2019-02-18 19:34:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151"), birthday, true): All options with value '5' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2019-02-18 19:34:20 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2019-02-18 19:34:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp"), birthmonth, true): All options with value '7' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2019-02-18 19:34:21 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2019-02-18 19:34:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520"), birthyear, true): All options with value '1998' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520'  using regular expression
+
+2019-02-18 19:34:23 - [MESSAGE][PASSED] - All options with value '1998' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520'  using regular expression
+
+2019-02-18 19:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Company_company"), company): Text 'daydreamsoft' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Company_company'
+
+2019-02-18 19:34:23 - [MESSAGE][PASSED] - Text 'daydreamsoft' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Company_company'
+
+2019-02-18 19:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__address1"), address1): Text '1255 Sunburst Drive' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__address1'
+
+2019-02-18 19:34:24 - [MESSAGE][PASSED] - Text '1255 Sunburst Drive' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__address1'
+
+2019-02-18 19:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su' is clicked on
+
+2019-02-18 19:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su' is clicked on
+
+2019-02-18 19:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("CreateAccount/Page_Login - My Store/input_Address (Line 2)_address"), address2): Text 'Fort Myers' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Address (Line 2)_address'
+
+2019-02-18 19:34:24 - [MESSAGE][PASSED] - Text 'Fort Myers' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Address (Line 2)_address'
+
+2019-02-18 19:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__city"), city): Text 'Florida' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__city'
+
+2019-02-18 19:34:24 - [MESSAGE][PASSED] - Text 'Florida' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__city'
+
+2019-02-18 19:34:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr"), state, true): All options with value '9' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2019-02-18 19:34:26 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression
+
+2019-02-18 19:34:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__postcode"), postcode): Text '33901' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__postcode'
+
+2019-02-18 19:34:26 - [MESSAGE][PASSED] - Text '33901' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__postcode'
+
+2019-02-18 19:34:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__phone_mobile"), phone): Text '7709646638' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__phone_mobile'
+
+2019-02-18 19:34:26 - [MESSAGE][PASSED] - Text '7709646638' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__phone_mobile'
+
+2019-02-18 19:34:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Register")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Register' is clicked on
+
+2019-02-18 19:34:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Register' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_Login" classname="Test Cases/TC2_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-18 19:34:31 - [TEST_CASE][PASSED] - Test Cases/TC2_Login: Test Cases/TC2_Login
+
+2019-02-18 19:34:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-18 19:34:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-18 19:34:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-18 19:34:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-18 19:34:40 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 19:34:50 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 19:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_My Store/a_Sign in")): Object: 'Object Repository/Login/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 19:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 19:34:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Email address_email"), email): Text 'Williajohens@rhyta.com' is set on object 'Object Repository/Login/Page_Login - My Store/input_Email address_email'
+
+2019-02-18 19:34:54 - [MESSAGE][PASSED] - Text 'Williajohens@rhyta.com' is set on object 'Object Repository/Login/Page_Login - My Store/input_Email address_email'
+
+2019-02-18 19:34:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Password_passwd"), password): Text 'suchinaik' is set on object 'Object Repository/Login/Page_Login - My Store/input_Password_passwd'
+
+2019-02-18 19:34:54 - [MESSAGE][PASSED] - Text 'suchinaik' is set on object 'Object Repository/Login/Page_Login - My Store/input_Password_passwd'
+
+2019-02-18 19:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Login - My Store/button_Sign in")): Object: 'Object Repository/Login/Page_Login - My Store/button_Sign in' is clicked on
+
+2019-02-18 19:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login - My Store/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_Login" classname="Test Cases/TC2_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-18 19:34:59 - [TEST_CASE][PASSED] - Test Cases/TC2_Login: Test Cases/TC2_Login
+
+2019-02-18 19:34:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-18 19:34:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-18 19:35:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-18 19:35:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-18 19:35:08 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 19:35:19 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 19:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_My Store/a_Sign in")): Object: 'Object Repository/Login/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 19:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 19:35:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Email address_email"), email): Text 'marybarsser@rhyta.com' is set on object 'Object Repository/Login/Page_Login - My Store/input_Email address_email'
+
+2019-02-18 19:35:23 - [MESSAGE][PASSED] - Text 'marybarsser@rhyta.com' is set on object 'Object Repository/Login/Page_Login - My Store/input_Email address_email'
+
+2019-02-18 19:35:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Login - My Store/input_Password_passwd"), password): Text 'naiksuchi' is set on object 'Object Repository/Login/Page_Login - My Store/input_Password_passwd'
+
+2019-02-18 19:35:23 - [MESSAGE][PASSED] - Text 'naiksuchi' is set on object 'Object Repository/Login/Page_Login - My Store/input_Password_passwd'
+
+2019-02-18 19:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Login - My Store/button_Sign in")): Object: 'Object Repository/Login/Page_Login - My Store/button_Sign in' is clicked on
+
+2019-02-18 19:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Login - My Store/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-18 19:33:03 - [TEST_SUITE][PASSED] - TC1: Test Cases/TC2_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

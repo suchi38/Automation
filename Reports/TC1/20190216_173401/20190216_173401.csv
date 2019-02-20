@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC1,Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:35,1m - 5.867s,PASSED
+,,,,,,
+Test Cases/TC1_CreateAccount,Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,37.171s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,13.910s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.029s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.015s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.259s,PASSED
+"selenium.open(""http://automationpractice.com/index.php?controller=authentication&back=my-account"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,4.395s,PASSED
+"selenium.click(""id=email_create"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.381s,PASSED
+"selenium.type(""id=email_create"", ""MeghanBMcDan@dayrep.com"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.131s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::span[1]"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.339s,PASSED
+delay(2),Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,2.075s,PASSED
+"selenium.click(""//form[@id='account-creation_form']/div/div/div[2]/label/div"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.321s,PASSED
+"selenium.click(""id=customer_firstname"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.304s,PASSED
+delay(2),Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,2.003s,PASSED
+"selenium.type(""id=customer_firstname"", ""Meghan"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.137s,PASSED
+"selenium.click(""id=customer_lastname"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.274s,PASSED
+"selenium.type(""id=customer_lastname"", ""Mcdaniel"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.107s,PASSED
+"selenium.click(""id=passwd"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.282s,PASSED
+delay(2),Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,2.005s,PASSED
+"selenium.type(""id=passwd"", ""ieFai4vahQu"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.112s,PASSED
+"selenium.click(""id=days"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.274s,PASSED
+"selenium.select(""id=days"", ""label=regexp:14\s+"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.325s,PASSED
+"selenium.click(""id=days"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.303s,PASSED
+"selenium.click(""id=months"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.291s,PASSED
+"selenium.select(""id=months"", ""label=regexp:March\s"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.321s,PASSED
+"selenium.click(""id=months"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.286s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Date of Birth'])[1]/following::div[6]"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.279s,PASSED
+"selenium.click(""id=years"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.297s,PASSED
+"selenium.select(""id=years"", ""label=regexp:2005\s+"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.358s,PASSED
+"selenium.click(""id=years"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.327s,PASSED
+"setText(findTestObject(""Firstname""), ""Meghan"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.169s,PASSED
+"setText(findTestObject(""Lastname""), ""McDaniel"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.135s,PASSED
+"selenium.click(""id=company"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.318s,PASSED
+"selenium.type(""id=company"", ""Briazz"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.103s,PASSED
+"selenium.click(""id=address1"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.292s,PASSED
+"selenium.type(""id=address1"", ""279 Riverside Drive"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.117s,PASSED
+"selenium.click(""id=address2"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.273s,PASSED
+"selenium.type(""id=address2"", ""Blairsville"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.127s,PASSED
+"selenium.click(""id=city"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.262s,PASSED
+"selenium.type(""id=city"", ""Blairsville"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.123s,PASSED
+"selenium.click(""id=id_state"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.290s,PASSED
+"selenium.select(""id=id_state"", ""label=Georgia"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.320s,PASSED
+"selenium.click(""id=id_state"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.279s,PASSED
+"selenium.click(""id=postcode"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.296s,PASSED
+"selenium.type(""id=postcode"", ""30512"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.130s,PASSED
+"selenium.click(""id=phone_mobile"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.266s,PASSED
+"selenium.type(""id=phone_mobile"", ""669039742"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.098s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='DNI / NIF / NIE'])[1]/following::span[1]"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,2.159s,PASSED
+,,,,,,
+Test Cases/TC2_Login,Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:35,26.205s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,13.346s,PASSED
+driver = getWebDriver(),Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.001s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:34,0.055s,PASSED
+"selenium.open(""http://automationpractice.com/index.php?controller=authentication&back=my-account"")",Firefox 65.0,,2/16/2019 17:34,2/16/2019 17:35,4.467s,PASSED
+delay(5),Firefox 65.0,,2/16/2019 17:35,2/16/2019 17:35,5.004s,PASSED
+"selenium.click(""id=email"")",Firefox 65.0,,2/16/2019 17:35,2/16/2019 17:35,0.336s,PASSED
+"selenium.type(""id=email"", ""MeghanBMcDan@dayrep.com"")",Firefox 65.0,,2/16/2019 17:35,2/16/2019 17:35,0.093s,PASSED
+"selenium.click(""id=passwd"")",Firefox 65.0,,2/16/2019 17:35,2/16/2019 17:35,0.341s,PASSED
+"selenium.type(""id=passwd"", ""ieFai4vahQu"")",Firefox 65.0,,2/16/2019 17:35,2/16/2019 17:35,0.092s,PASSED
+"selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/following::span[1]"")",Firefox 65.0,,2/16/2019 17:35,2/16/2019 17:35,1.898s,PASSED

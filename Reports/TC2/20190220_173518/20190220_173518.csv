@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC2,Firefox 65.0,,2019-02-20 17:35:21,2019-02-20 17:35:55,34.168s,ERROR
+,,,,,,
+Test Cases/TC4_FilterOption,Firefox 65.0,,2019-02-20 17:35:21,2019-02-20 17:35:50,28.568s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-02-20 17:35:23,2019-02-20 17:35:31,8.725s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php?id_category=3&controller=category"")",Firefox 65.0,,2019-02-20 17:35:31,2019-02-20 17:35:39,7.802s,PASSED
+delay(3),Firefox 65.0,,2019-02-20 17:35:39,2019-02-20 17:35:42,3.083s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_Categories_layered_categ (1)""))",Firefox 65.0,,2019-02-20 17:35:42,2019-02-20 17:35:43,0.538s,PASSED
+"click(findTestObject(""Object Repository/FilterObjects/Page_Women - My Store/input_(7)_layered_id_attribute (1)""))",Firefox 65.0,,2019-02-20 17:35:43,2019-02-20 17:35:43,0.297s,PASSED
+delay(5),Firefox 65.0,,2019-02-20 17:35:43,2019-02-20 17:35:48,5.001s,PASSED
+,,,,,,
+Test Cases/TC3_AddToCart - Copy,Firefox 65.0,,2019-02-20 17:35:50,2019-02-20 17:35:53,3.432s,ERROR
+driver = getWebDriver(),Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.028s,PASSED
+"baseUrl = ""https://www.katalon.com/""",Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.331s,PASSED
+"scrollToPosition(0, 800)",Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.042s,PASSED
+old_pos = 800,Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.016s,PASSED
+j = 400,Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.000s,PASSED
+i = 1,Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.022s,PASSED
+"executeJavaScript(""var person = prompt(""Please enter data"", ""2"");"", [])",Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.115s,PASSED
+p = getAlertText(),Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.076s,PASSED
+for (def index : (1..(int) p)),Firefox 65.0,,2019-02-20 17:35:51,2019-02-20 17:35:51,0.015s,ERROR

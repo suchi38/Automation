@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1" time="82" tests="1" failures="2" errors="0">
+   <testsuite name="TC1" tests="1" failures="2" errors="0" time="82" timestamp="2019-02-18 18:39:03" hostname="dell - computer" id="Test Suites/TC1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190218_183901"/>
+         <property name="logFiles" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190218_183901\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190218_183901\\1550495368865.png, C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190218_183901\\1550495391583.png"/>
+         <property name="hostName" value="dell - computer"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.1.146"/>
+         <property name="sessionId" value="abed5ce4-5c8c-4af3-8861-b0a6d5925958"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TC3_CreateAccount" classname="Test Cases/TC3_CreateAccount" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC3_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Georgia' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-18 18:39:04 - [TEST_CASE][FAILED] - Test Cases/TC3_CreateAccount: Test Cases/TC3_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Georgia' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)
+
+
+2019-02-18 18:39:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-18 18:39:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-18 18:39:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-18 18:39:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-18 18:39:12 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 18:39:18 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 18:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_My Store/a_Sign in")): Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 18:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 18:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea"), email): Text 'William@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-18 18:39:21 - [MESSAGE][PASSED] - Text 'William@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-18 18:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Create an account")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-18 18:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-18 18:39:21 - [TEST_STEP][PASSED] - click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2019-02-18 18:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2019-02-18 18:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname"), firstname): Text 'William' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname'
+
+2019-02-18 18:39:23 - [MESSAGE][PASSED] - Text 'William' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname'
+
+2019-02-18 18:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname"), lastname): Text 'Wiilaits' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname'
+
+2019-02-18 18:39:23 - [MESSAGE][PASSED] - Text 'Wiilaits' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname'
+
+2019-02-18 18:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__passwd"), password): Text 'suchinaik' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__passwd'
+
+2019-02-18 18:39:24 - [MESSAGE][PASSED] - Text 'suchinaik' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__passwd'
+
+2019-02-18 18:39:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151"), birthday, true): All options with value '23' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2019-02-18 18:39:25 - [MESSAGE][PASSED] - All options with value '23' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2019-02-18 18:39:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp"), birthmonth, true): All options with value '5' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2019-02-18 18:39:25 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2019-02-18 18:39:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520"), birthyear, true): All options with value '2019' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520'  using regular expression
+
+2019-02-18 18:39:27 - [MESSAGE][PASSED] - All options with value '2019' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520'  using regular expression
+
+2019-02-18 18:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Company_company"), company): Text 'narola' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Company_company'
+
+2019-02-18 18:39:27 - [MESSAGE][PASSED] - Text 'narola' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Company_company'
+
+2019-02-18 18:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__address1"), address1): Text '1359 Graystone Lakes' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__address1'
+
+2019-02-18 18:39:27 - [MESSAGE][PASSED] - Text '1359 Graystone Lakes' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__address1'
+
+2019-02-18 18:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su' is clicked on
+
+2019-02-18 18:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su' is clicked on
+
+2019-02-18 18:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("CreateAccount/Page_Login - My Store/input_Address (Line 2)_address"), address2): Text 'Sandersville' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Address (Line 2)_address'
+
+2019-02-18 18:39:28 - [MESSAGE][PASSED] - Text 'Sandersville' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Address (Line 2)_address'
+
+2019-02-18 18:39:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__city"), city): Text 'Georgia' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__city'
+
+2019-02-18 18:39:28 - [MESSAGE][PASSED] - Text 'Georgia' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__city'
+
+2019-02-18 18:39:28 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr"), state, true): selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr"), state, true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Georgia' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)
+
+
+2019-02-18 18:39:28 - [MESSAGE][FAILED] - No option matched.
+
+2019-02-18 18:39:28 - [MESSAGE][FAILED] - Unable to select option by value 'Georgia' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190218_183901\\1550495368865.png]]
+
+2019-02-18 18:39:28 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr"), state, true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Georgia' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-18 18:39:04 - [TEST_CASE][FAILED] - Test Cases/TC3_CreateAccount: Test Cases/TC3_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Georgia' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC3_CreateAccount" classname="Test Cases/TC3_CreateAccount" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC3_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Florida' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-18 18:39:28 - [TEST_CASE][FAILED] - Test Cases/TC3_CreateAccount: Test Cases/TC3_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Florida' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)
+
+
+2019-02-18 18:39:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-18 18:39:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-18 18:39:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-18 18:39:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-18 18:39:36 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 18:39:41 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-02-18 18:39:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_My Store/a_Sign in")): Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 18:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_My Store/a_Sign in' is clicked on
+
+2019-02-18 18:39:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea"), email): Text 'marybabaker@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-18 18:39:44 - [MESSAGE][PASSED] - Text 'marybabaker@rhyta.com' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Email address_email_crea'
+
+2019-02-18 18:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/button_Create an account")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-18 18:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/button_Create an account' is clicked on
+
+2019-02-18 18:39:44 - [TEST_STEP][PASSED] - click(findTestObject("CreateAccount/Page_Login - My Store/input_Mr._id_gender")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2019-02-18 18:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/input_Mr._id_gender' is clicked on
+
+2019-02-18 18:39:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname"), firstname): Text 'Mary' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname'
+
+2019-02-18 18:39:46 - [MESSAGE][PASSED] - Text 'Mary' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_firstname'
+
+2019-02-18 18:39:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname"), lastname): Text 'Baker' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname'
+
+2019-02-18 18:39:46 - [MESSAGE][PASSED] - Text 'Baker' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__customer_lastname'
+
+2019-02-18 18:39:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__passwd"), password): Text 'naiksuchi' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__passwd'
+
+2019-02-18 18:39:46 - [MESSAGE][PASSED] - Text 'naiksuchi' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__passwd'
+
+2019-02-18 18:39:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151"), birthday, true): All options with value '5' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2019-02-18 18:39:47 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-1234567891011121314151'  using regular expression
+
+2019-02-18 18:39:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp"), birthmonth, true): All options with value '7' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2019-02-18 18:39:48 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-JanuaryFebruaryMarchAp'  using regular expression
+
+2019-02-18 18:39:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520"), birthyear, true): All options with value '2017' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520'  using regular expression
+
+2019-02-18 18:39:50 - [MESSAGE][PASSED] - All options with value '2017' are selected in object 'Object Repository/CreateAccount/Page_Login - My Store/select_-2019201820172016201520'  using regular expression
+
+2019-02-18 18:39:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input_Company_company"), company): Text 'daydreamsoft' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Company_company'
+
+2019-02-18 18:39:50 - [MESSAGE][PASSED] - Text 'daydreamsoft' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Company_company'
+
+2019-02-18 18:39:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__address1"), address1): Text '1255 Sunburst Drive' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__address1'
+
+2019-02-18 18:39:50 - [MESSAGE][PASSED] - Text '1255 Sunburst Drive' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__address1'
+
+2019-02-18 18:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su")): Object: 'Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su' is clicked on
+
+2019-02-18 18:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccount/Page_Login - My Store/p_Address (Line 2)Apartment su' is clicked on
+
+2019-02-18 18:39:50 - [TEST_STEP][PASSED] - setText(findTestObject("CreateAccount/Page_Login - My Store/input_Address (Line 2)_address"), address2): Text 'Fort Myers' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Address (Line 2)_address'
+
+2019-02-18 18:39:50 - [MESSAGE][PASSED] - Text 'Fort Myers' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input_Address (Line 2)_address'
+
+2019-02-18 18:39:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/input__city"), city): Text 'Florida' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__city'
+
+2019-02-18 18:39:50 - [MESSAGE][PASSED] - Text 'Florida' is set on object 'Object Repository/CreateAccount/Page_Login - My Store/input__city'
+
+2019-02-18 18:39:50 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr"), state, true): selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr"), state, true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Florida' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)
+
+
+2019-02-18 18:39:51 - [MESSAGE][FAILED] - No option matched.
+
+2019-02-18 18:39:51 - [MESSAGE][FAILED] - Unable to select option by value 'Florida' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+[[ATTACHMENT|C:\\Users\\dell\\Katalon Studio\\Automation\\Reports\\TC1\\20190218_183901\\1550495391583.png]]
+
+2019-02-18 18:39:51 - [MESSAGE][FAILED] - selectOptionByValue(findTestObject("Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr"), state, true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Florida' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-18 18:39:28 - [TEST_CASE][FAILED] - Test Cases/TC3_CreateAccount: Test Cases/TC3_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Florida' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_Login" classname="Test Cases/TC2_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-18 18:39:51 - [TEST_CASE][PASSED] - Test Cases/TC2_Login: Test Cases/TC2_Login
+
+2019-02-18 18:39:52 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-18 18:39:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-02-18 18:39:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-02-18 18:40:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2019-02-18 18:40:10 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-02-18 18:40:10 - [TEST_STEP][PASSED] - baseUrl = "https://www.katalon.com/": null
+
+2019-02-18 18:40:10 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-02-18 18:40:10 - [TEST_STEP][PASSED] - selenium.open("http://automationpractice.com/index.php?controller=authentication&back=my-account"): null
+
+2019-02-18 18:40:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-18 18:40:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-18 18:40:21 - [TEST_STEP][PASSED] - selenium.click("id=email"): null
+
+2019-02-18 18:40:21 - [TEST_STEP][PASSED] - selenium.type("id=email", "MeghanBMcDan@dayrep.com"): null
+
+2019-02-18 18:40:21 - [TEST_STEP][PASSED] - selenium.click("id=passwd"): null
+
+2019-02-18 18:40:21 - [TEST_STEP][PASSED] - selenium.type("id=passwd", "ieFai4vahQu"): null
+
+2019-02-18 18:40:22 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/following::span[1]"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-18 18:39:03 - [TEST_SUITE][FAILED] - TC1: Test Cases/TC3_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Georgia' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-18 18:39:03 - [TEST_SUITE][FAILED] - TC1: Test Cases/TC3_CreateAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'Georgia' of object 'Object Repository/CreateAccount/Page_Login - My Store/select_-AlabamaAlaskaArizonaAr'  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: No option matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at TC3_CreateAccount.run(TC3_CreateAccount:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550495341023.run(TempTestSuite1550495341023.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
